@@ -9,5 +9,7 @@ namespace MvcMovie.Models
         public SelectList? Genres { get; set; }
         public string? MovieGenre { get; set; }
         public string? SearchString { get; set; }
+        public string? lowerPrice { get; set; }
+        public string? higherPrice { get; set; }
     }
 }
